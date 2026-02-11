@@ -1,0 +1,273 @@
+[
+  {
+    "ContainingType": "UsersBaseTest.Controllers.ClaimsController",
+    "Method": "CheckClaim",
+    "RelativePath": "api/Claims/check-claim/{claimType}/{claimValue}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimType",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "claimValue",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.ClaimsController",
+    "Method": "CustomAccess",
+    "RelativePath": "api/Claims/custom-access",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UsersBaseTest.Controllers.AccessRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.ClaimsController",
+    "Method": "GenerateTokenWithClaims",
+    "RelativePath": "api/Claims/generate-with-claims",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UsersBaseTest.Controllers.TokenGenerationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.ClaimsController",
+    "Method": "MultiClaimAccess",
+    "RelativePath": "api/Claims/multi-claim-access",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.ClaimsController",
+    "Method": "GetMyClaims",
+    "RelativePath": "api/Claims/my-claims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "AdminDashboard",
+    "RelativePath": "api/Users/admin-dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "AdminOnly",
+    "RelativePath": "api/Users/admin-only",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "GetBusinessSensitiveData",
+    "RelativePath": "api/Users/business-sensitive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "EmployeeTasks",
+    "RelativePath": "api/Users/employee-tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "GetITManagement",
+    "RelativePath": "api/Users/it-management",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "GetITResources",
+    "RelativePath": "api/Users/it-resources",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "ManagementReports",
+    "RelativePath": "api/Users/management-reports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "ManagersAndAdmins",
+    "RelativePath": "api/Users/managers-and-admins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "GetMyInfo",
+    "RelativePath": "api/Users/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "GetMentorProgram",
+    "RelativePath": "api/Users/mentor-program",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "PublicInfo",
+    "RelativePath": "api/Users/public",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "PublicInfoo",
+    "RelativePath": "api/Users/public-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "department",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "position",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "GetSalaryReports",
+    "RelativePath": "api/Users/salary-reports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsersBaseTest.Controllers.UsersController",
+    "Method": "ValidateToken",
+    "RelativePath": "api/Users/validate-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
